@@ -1,7 +1,7 @@
 #se cargan las bases de datos
-base15 <- read_csv("C:/Users/damar/OneDrive/Escritorio/Semestre/TAE/Accidentalidad_2015.csv")
-base16 <- read_csv("C:/Users/damar/OneDrive/Escritorio/Semestre/TAE/Accidentalidad_2016.csv")
-base17 <- read_csv("C:/Users/damar/OneDrive/Escritorio/Semestre/TAE/Accidentalidad_2017.csv")
+base15 <- read_csv("./csv/Accidentalidad_2015.csv")
+base16 <- read_csv("./csv/Accidentalidad_2016.csv")
+base17 <- read_csv("./csv/Accidentalidad_2017.csv")
 #Analisis descriptivo para la variable diseño
 tabla_d <- table(base15$DISENO)
 barras_d <- barplot(tabla_d)
